@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.ts",
+    "scripts": {
+        "build": "rm -rf build && prettier --write src/ && tsc",
+        "dev": "ts-node-dev src/server.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "firebase-admin": "^10.0.2",
+        "mongoose": "^6.2.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/mongoose": "^5.11.97",
+        "ts-node-dev": "^1.1.8"
+    }
+}
